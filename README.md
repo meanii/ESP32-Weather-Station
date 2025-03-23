@@ -46,8 +46,21 @@ The code initializes the OLED display and DHT22 sensor, then continuously reads 
 - **OLED Not Displaying?** Ensure correct I2C pins are used and try scanning for devices using an I2C scanner sketch.
 
 ## Images
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
 ![Wiring Diagram](./images/wiring.jpg)
 ![Display](./images/display.jpg)
+</div>
+
+## TODO
+
+- **Add MQTT Support for Home Assistant**
+  - Integrate MQTT protocol to allow remote monitoring via Home Assistant.
+  - Enable real-time data updates for smart home automation.
+
+- **Implement Web Server for WiFi Setup**
+  - Develop a simple web interface for configuring WiFi settings.
+  - Allow users to connect the ESP32C6 to a network without modifying the code.
+
 
 ## License
 This project is open-source under the MIT License.
