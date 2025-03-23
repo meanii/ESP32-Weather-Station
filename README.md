@@ -46,10 +46,8 @@ The code initializes the OLED display and DHT22 sensor, then continuously reads 
 - **OLED Not Displaying?** Ensure correct I2C pins are used and try scanning for devices using an I2C scanner sketch.
 
 ## Images
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
 ![Wiring Diagram](./images/wiring.jpg)
 ![Display](./images/display.jpg)
-</div>
 
 ## TODO
 
