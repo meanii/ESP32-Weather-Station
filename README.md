@@ -47,6 +47,7 @@ The code initializes the OLED display and DHT22 sensor, then continuously reads 
 
 ## Images
 ![Wiring Diagram](./images/wiring.jpg)
+![Display](./images/display.jpg)
 
 ## License
 This project is open-source under the MIT License.
