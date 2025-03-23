@@ -23,7 +23,6 @@ This project is ideal for IoT applications, smart home automation, and weather t
 | DHT22 VCC | 3.3V       |
 | DHT22 GND | GND        |
 
-![Wiring Diagram](./images/wiring.jpg)
 
 ## Setting Up the ESP32C6
 1. Install **Arduino IDE** (or VS Code with PlatformIO)
@@ -45,6 +44,9 @@ The code initializes the OLED display and DHT22 sensor, then continuously reads 
 ## Troubleshooting
 - **Sensor Not Detected?** Check wiring and ensure proper library installation.
 - **OLED Not Displaying?** Ensure correct I2C pins are used and try scanning for devices using an I2C scanner sketch.
+
+## Images
+![Wiring Diagram](./images/wiring.jpg)
 
 ## License
 This project is open-source under the MIT License.
